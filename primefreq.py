@@ -21,7 +21,7 @@ def plot_gap_frequency(gaps, max_gap=50):
     plt.show()
 
 def main():
-    n = 100000  # Generate primes up to this number
+    n = 1000000  # Generate primes up to this number
     max_gap_to_display = 50  # Maximum gap size to display in the plot
 
     print(f"Generating primes up to {n}...")
